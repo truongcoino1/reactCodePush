@@ -20,7 +20,7 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class App extends Component {
+ class App extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -37,6 +37,8 @@ export default class App extends Component {
     );
   }
 }
+
+export default codePush(App);
 
 
 const styles = StyleSheet.create({
